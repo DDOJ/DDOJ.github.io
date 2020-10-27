@@ -15,14 +15,13 @@ h1, h2, h3, h4, h5, h6, p, body{
 .header > .left-header {
     display: flex;
     align-items: center;
-    width: 50%;
-    padding: 5px;
+    width: 100%;
 }
 
 .header > .left-header > .logo {
     height: 75px;
     width: 75px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .header > .left-header > .discord-btn {
@@ -39,7 +38,19 @@ h1, h2, h3, h4, h5, h6, p, body{
     outline: none;
 }
 
+.header > .center-header {
+    width: 100%;
+    text-align: center;;
+}
+
 .header > .right-header {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > .right-header a {
+    text-decoration: none;
+    color: black;
 }
 
