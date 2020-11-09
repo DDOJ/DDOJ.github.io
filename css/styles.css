@@ -4,18 +4,20 @@ h1, h2, h3, h4, h5, h6, p, body{
 }
 
 .header {
-    background-color: #005596;
+    background-color: #8794ac;
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    color: #04246b;
 }
 
 .header > .left-header {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 
 .header > .left-header > .logo {
@@ -30,17 +32,21 @@ h1, h2, h3, h4, h5, h6, p, body{
 }
 
 .header > .left-header > .discord-btn > .discord {
-    background-color: #F3901D;
+    background-color:#04246b;
     border: 0;
     padding: 15px;
     border-radius: 50px;
-    color: #002D56;
+    color: #8794ac;
     outline: none;
+}
+
+.header > .left-header > .discord-btn > .discord:hover {
+    cursor: pointer;
 }
 
 .header > .center-header {
     width: 100%;
-    text-align: center;;
+    text-align: center;
 }
 
 .header > .right-header {
@@ -52,6 +58,25 @@ h1, h2, h3, h4, h5, h6, p, body{
 
 .header > .right-header a {
     text-decoration: none;
-    color: black;
+    color: #04246b;
 }
 
+.content-body {
+    background-color: #344472;
+}
+
+.content-body > .body-header {
+    color: #04246b;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-body > .body-content {
+    color: #8794ac;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}

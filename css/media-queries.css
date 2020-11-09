@@ -4,11 +4,11 @@
         height: 100%;
     }
 
-    .left-header {
+    .header > .left-header {
         justify-content: space-around;
     }
 
-    .right-header {
+    .header > .right-header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
